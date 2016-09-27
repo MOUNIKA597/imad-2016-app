@@ -1,4 +1,4 @@
- <!doctype html>;
+ <!doctype html>
 <html>
     <head>
         <link href="/ui/style.css" rel="stylesheet" />
@@ -13,8 +13,7 @@
         </div>
         <script type="text/javascript" src="/ui/main.js">
         </script>
-    <script>
-       alert('i am your java script');
-        </script>
+    
+    
     </body>
 </html>
