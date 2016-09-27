@@ -3,7 +3,7 @@ var morgan = require('morgan');
 var path = require('path');
 
 var app = express();
-app.utd(morgan('combined'));
+app.use(morgan('combined'));
 
 app.get('/',function(req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'index.html'));
@@ -14,7 +14,7 @@ app.get('/ui/style.css',function(req, res) {
 });
 
 app.get('/ui/modi.png',function(req, res) {
-    res.sendFile(path.join(__dirname, 'ul', 'modi.ping'));
+    res.sendFile(path.join(__dirname, 'ui', 'modi.ping'));
 });
 
 
